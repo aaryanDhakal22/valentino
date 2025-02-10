@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/valentino",
+  images: { unoptimized: true },
+  basePath: '/valentino', 
   /* config options here */
 };
 
