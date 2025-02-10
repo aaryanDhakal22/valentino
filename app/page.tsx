@@ -4,7 +4,7 @@ import GIFComponent from '../components/gif.component';
 import Buttons from '@/components/buttons.component';
 
 export default function Home() {
-
+  // main variable
   const [counter, setCounter] = useState<number>(1)
   
   return (
